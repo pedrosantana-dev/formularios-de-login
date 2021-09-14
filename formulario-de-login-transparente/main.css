@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 20px;
+    background-color: rgba(0, 0, 0, .7);
+    color: #fff;
+}
+.container h1 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2929ff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.container label {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    color: #2979ff;
+    font-family: "open sans", sans-serif;
+}
+.container input {
+    width: calc(100% - 30px);
+    padding: 8px 15px;
+    margin: 15px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #2929ff;
+    color: #fff;
+    font-size: 18px;
+    font-family: "open sans", sans-serif;
+}
+.container button {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #2929ff;
+    color: #fafafa;
+    font-family: "open sans", sans-serif;
+    cursor: pointer;
+    transition: .4s;
+}
+.container button:hover {
+    background-color: #1a237e;
+
+}

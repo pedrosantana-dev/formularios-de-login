@@ -1,0 +1,37 @@
+body {
+    background-color: #fafafa;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(82, 82, 82, .3);
+    width: 300px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.login h3 {
+    padding: 5px 0 10px 0;
+    background-color: #ba68c8;
+    color: #fff;
+    text-align: center;
+}
+.login form {
+    padding: 10px 20px;
+}
+.login form input[type="text"]{
+    width: 100%;
+}
+.login form input[type="password"]{
+    width: 100%;
+}
+.login form a {
+    color: #ba68c8;
+}
+.login form button {
+    margin-top: 15px;
+    width: 100%;
+}
